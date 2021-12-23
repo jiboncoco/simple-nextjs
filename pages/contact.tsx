@@ -1,14 +1,9 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 export default function Contact() {
     return (
-        <>
-            <div className="container mx-auto">
-                <Header></Header>
-                    <p>This Contact</p>
-                <Footer></Footer>
-            </div>
-        </>
+        <Layout pageTitle="Contact">
+            <p>This Contact</p>
+        </Layout>
     )
 }

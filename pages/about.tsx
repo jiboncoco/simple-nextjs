@@ -1,14 +1,9 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 export default function About() {
     return (
-        <>
-            <div className="container mx-auto">
-                <Header></Header>
-                    <p>This About</p>
-                <Footer></Footer>
-            </div>
-        </>
+        <Layout pageTitle="About">
+            <p>This About</p>
+        </Layout>
     )
 }
